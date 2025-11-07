@@ -1,0 +1,264 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    margin: 0;
+    color: #333;
+}
+
+.galeria-projetos {
+    font-size: 14px;
+}
+
+.voluntariados {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1em 0 2em;
+    align-items: stretch;
+}
+
+.voluntariados h1 {
+    text-align: center;
+}
+
+.video,
+.title-voluntario,
+.paragrafo-voluntario,
+.botao-voluntario {
+    width: 275px;
+}
+
+.title-voluntario, .paragrafo-voluntario {
+    padding: 0.5em;
+    text-align: center;
+}
+
+.cards-voluntarios {
+    display: flex;
+    max-width: 1200px;
+    gap: 30px;
+}
+
+.causas {
+    display: flex;
+    flex-direction: column;
+    height: 100%
+}
+
+.paragrafo-voluntario {
+    flex-grow: 1; /* Faz o parágrafo ocupar todo o espaço vertical restante */
+    /* Outros estilos do parágrafo */
+    margin-bottom: 15px; /* Adiciona um espaço antes do botão */
+}
+
+.video {
+    border-radius: 6px;
+}
+
+.seja-voluntario {
+    padding: 0;
+}
+
+.botao-voluntario {
+    text-align: center;
+    background-color: #6c63ff;
+    color: #fff;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+.botao-voluntario:hover {
+    background-color: #28a745;
+}
+
+
+
+.doacoes {
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 3em auto;
+}
+
+.title-doacao {
+    text-align: center;
+}
+
+.paragrafo-doacao {
+    font-size: 18px;
+}
+
+.cards-doacao {
+    display: flex;
+    gap: 30px;
+    max-width: 1200px;
+}
+
+.opcao-doacao {
+    background-color: var(--border-color);
+    border-radius: 10px;
+    width: 300px;
+    padding: 1.5em;
+    cursor: pointer;
+    position: relative;
+    transition: 0.3s;
+}
+
+.opcao-doacao.selecionado {
+    background-color: #6c63ff;
+    color: #fff;
+}
+
+.opcao-doacao span {
+    display: block;
+    font-size: 1.6em;
+}
+
+.opcao-doacao .valor-dia {
+    font-size: 0.9em;
+    opacity: 0.8;
+    margin: 0.4em 0 1em 0;
+}
+
+.opcao-doacao .descricao {
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+.opcao-doacao.selecionado .descricao {
+    color: #fff;
+}
+
+.opcao-doacao .marcador {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #6c63ff;
+    border-radius: 50%;
+}
+
+.opcao-doacao.selecionado .marcador {
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.outro-valor input {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5em;
+    font-size: 1em;
+    margin: 0.5em 0;
+}
+
+.valor-minimo {
+    font-size: 0.8em;
+    color: #777;
+}
+
+.mensalidade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5.2em;
+    padding: 0 0 1em 0;
+}
+
+.texto-doacao h3 {
+    font-size: 1.5em;
+    color: #6c63ff;
+    margin: 0.5em 0;
+}
+
+.texto-doacao span {
+    font-weight: bold;
+}
+
+.texto-doacao p {
+    color: #555;
+    font-size: 0.95em;
+}
+
+.toggle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7em;
+    margin: 1.5em 0;
+    font-size: 1em;
+}
+
+.toggle {
+    position: relative;
+    width: 55px;
+    height: 28px;
+}
+
+.toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #6c63ff;
+    border-radius: 34px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.slider:before {
+    content: "";
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+input:checked+.slider {
+    background-color: #28a745;
+}
+
+input:checked+.slider:before {
+    transform: translateX(26px);
+}
+
+.confirmar-doacao {
+    background-color: var(--button-color);
+    padding: 1em 4em;
+    border-radius: 8px;
+    font-size: 18px;
+    color: var(--border-color);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* animação suave */
+}
+
+.confirmar-doacao:hover {
+    background-color: #28a745;
+}
+
+.opcao-doacao:hover {
+    background-color: #6c63ff;
+}
+
+
+
+
+
+
+

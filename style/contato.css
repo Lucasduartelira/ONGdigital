@@ -1,0 +1,30 @@
+
+.contato {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background-color: rgb(207, 207, 253);
+    padding: 3em 0;
+}
+
+.contato img {
+    width: 8em;
+}
+
+.contato-paragrafo {
+    padding: 1em 0;
+    font-size: 14px;
+}
+
+.unidades {
+    font-size: 18px;
+}
+
+.Copyright {
+    font-size: 16px;
+}
+
+.contato-endereço {
+    display: flex;
+    align-items: center;
+}

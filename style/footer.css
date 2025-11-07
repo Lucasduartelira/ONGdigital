@@ -1,0 +1,9 @@
+.endereço {
+    flex-direction: column;
+}
+
+.direitos {
+    text-align: center;
+    padding: 2em;
+    width: 100%;
+}

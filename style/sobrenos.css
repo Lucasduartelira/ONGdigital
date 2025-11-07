@@ -1,0 +1,16 @@
+.sobrenos {
+    display: flex;
+    background-color: rgb(219, 219, 219);
+    align-items: center;
+}
+
+.texto-sobrenos {
+    margin: 0 0 0 4em;
+    font-size: 18px;
+}
+
+.sobrenos-paragrafo {
+    padding: 2em 4em 0 0;
+    line-height: 1.8;
+    font-size: 14px;
+}

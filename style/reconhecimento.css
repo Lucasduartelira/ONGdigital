@@ -1,0 +1,33 @@
+.reconhecimento {
+    padding: 1em 0 3em 0;
+}
+
+.title-reconhecimento {
+    text-align: center;
+    padding: 1em;
+    margin: 0;
+}
+
+.selo {
+    width: 300px;
+}
+
+.info-reconhecimento {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text-reconhecimento {
+    width: 50%;
+}
+
+.text-reconhecimento h2 {
+    text-align: center;
+    font-size: 36px;
+    color: var(--button-color);
+}
+
+.text-reconhecimento h3 {
+    padding: 1em 0;
+}

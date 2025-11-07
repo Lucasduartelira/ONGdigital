@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Formulário</title>
+</head>
+
+<body class="formulario">
+    
+    <section class="container-form">
+
+        <figure class="form-image">
+            <img class="logo-form" src="/img/logomarca.svg" alt="logo-form">
+        </figure>
+
+        <div class="form">
+            <form action="#">
+
+                <header class="form-header">
+                    <h2>Cadastre-se</h2>
+                    <button type="submit" class="botao-entrar">Entrar</button>
+                </header>
+
+                <fieldset class="input-group">
+
+                    <div class="input-box">
+                        <label for="full-name">Nome completo</label>
+                        <input id="full-name" type="text" name="full-name" placeholder="Digite seu nome completo"
+                            required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu E-mail" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="cpf">CPF</label>
+                        <input id="cpf" type="text" name="cpf" placeholder="Digite seu CPF" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">Telefone</label>
+                        <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="birthdate">Dados de Nascimento</label>
+                        <input id="birthdate" type="text" name="birthdate" placeholder="Data de Nascimento" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="address">Endereço</label>
+                        <input id="address" type="text" name="address" placeholder="Digite seu Endereço" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="zipcode">CEP</label>
+                        <input id="zipcode" type="text" name="zipcode" placeholder="CEP de residencia" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="state">Estado</label>
+                        <input id="state" type="text" name="state" placeholder="Cidade / Estado" required>
+                    </div>
+
+                </fieldset>
+
+                <button type="submit" class="botao-cadastrar">Cadastrar</button>
+
+            </form>
+        </div>
+
+    </section>
+
+</body>
+
+</html>

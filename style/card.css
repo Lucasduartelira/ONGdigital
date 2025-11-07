@@ -1,0 +1,50 @@
+.capa {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    /* faz a imagem preencher sem distorcer */
+}
+
+.card {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 80px;
+    padding: 1em 5em 1em 5em;
+}
+
+.card-titulo {
+    text-align: center;
+    padding: 1em 0 0;
+    font-size: 36px;
+}
+
+.line-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 180px;
+    padding: 1em 0 3em 0;
+}
+
+.card-insight img {
+    width: 150px;
+    transition: transform 0.3s ease;
+}
+
+.card-insight:hover {
+    transform: scale(1.05);
+}
+
+.numeros-card {
+    font-size: 28px;
+}
+
+.icone-card {
+    width: 100%;
+}
+
+.descricao-card {
+    font-size: 12px;
+}

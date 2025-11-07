@@ -1,0 +1,56 @@
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    background-color: var(--border-color);
+    padding: 0 2em;
+    gap: 250px;
+    top: 0;
+}
+
+.logo {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 15px;
+    width: 300px;
+}
+
+.paragrafo-doacao {
+    font-size: 48px;
+}
+
+.logo-imagem {
+    width: 5em;
+    height: auto;
+}
+
+.navegar {
+    display: flex;
+    gap: 50px;
+}
+
+.login {
+    display: flex;
+    gap: 20px;
+}
+
+.icone {
+    width: 2em;
+}
+
+.logo-nome {
+    font-size: 18px;
+    
+}
+
+.entrar {
+    width: 250px;
+    background-color: #6c63ff;
+    color: var(--border-color);
+    padding: 1em 1em;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 12px;
+}

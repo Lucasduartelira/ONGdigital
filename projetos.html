@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Doação Mensal</title>
+</head>
+
+<body>
+
+    <main>
+        <header class="menu">
+
+            <div class="logo">
+                <img class="logo-imagem" src="/img/logomarca.svg" alt="logo-img">
+                <a href="/index.html" class="logo-nome">A vida acontece agora</a>
+            </div>
+
+            <nav class="navegar">
+                <a href="/projetos.html" class="galeria-projetos">PROJETOS E DOAÇÕES</a>
+            </nav>
+
+            <div class="login">
+                <img class="icone" src="/icons/login.svg" alt="login-img">
+                <a href="/formulario.html" class="entrar">Clique aqui para acessar <br>o portal do doador
+                </a>
+            </div>
+
+        </header>
+
+        <section class="voluntariados">
+            <h1 class="seja-voluntario">Seja um voluntário</h1>
+
+            <div class="cards-voluntarios">
+                <article class="causas">
+                    <video class="video" loop autoplay src="/img/educação.mp4"></video>
+                    <h3 class="title-voluntario">Educação para todos</h3>
+                    <p class="paragrafo-voluntario">São + de 420 professores voluntários cadastrados e ativos nos
+                        serviços sociais ensinando crianças,
+                        jovens e adultos.
+                    </p>
+
+                    <a href="/formulario.html" class="botao-voluntario">Quero ser voluntário</a>
+                </article>
+
+                <article class="causas">
+                    <video class="video" loop autoplay src="/img/vol-alimentos.mp4"></video>
+                    <h3 class="title-voluntario">Fome zero</h3>
+                    <p class="paragrafo-voluntario">São + de 1250 voluntários cadastrados e ativos nos serviços sociais
+                        ajudando no combate fome e comunidades carentes.
+                    </p>
+
+                    <a href="/formulario.html" class="botao-voluntario">Quero ser voluntário</a>
+                </article>
+
+                <article class="causas">
+                    <video class="video" loop autoplay src="/img/vol-saude.mp4"></video>
+                    <h3 class="title-voluntario">Saúde basica</h3>
+                    <p class="paragrafo-voluntario">São + de 2345 profissionais da saúde voluntários, cadastrados e
+                        ativos nos serviços sociais contribuindo com exames basicos e acompanhamento médico.
+                    </p>
+
+                    <a href="/formulario.html" class="botao-voluntario">Quero ser voluntário</a>
+                </article>
+
+                <article class="causas">
+                    <video class="video" loop autoplay src="/img/vol-arvores.mp4"></video>
+                    <h3 class="title-voluntario">Mundo verde</h3>
+                    <p class="paragrafo-voluntario">São + de 420 professores voluntários cadastrados e ativos nos
+                        serviços sociais ensinando crianças,
+                        jovens e adultos.
+                    </p>
+
+                    <a href="/formulario.html" class="botao-voluntario">Quero ser voluntário</a>
+                </article>
+
+            </div>
+
+        </section>
+
+        <section class="doacoes">
+
+            <div class="title-doacao">
+                <h1>Olá Doador!</h1>
+                <p class="paragrafo-doacao">Obrigado por nos ajudar a salvar vidas e tornar o mundo melhor.</p>
+            </div>
+
+            <div class="cards-doacao">
+                <article class="opcao-doacao">
+                    <input type="checkbox" id="doe-arvores" name="arvores">
+                    <h2>Doe <span>R$ 55</span></h2>
+                    <p class="valor-dia">R$ 1,80 por dia</p>
+                    <p class="descricao">
+                        Contribua com o plantio de árvores e a restauração de áreas verdes.
+                        Sua doação ajuda a transformar o tempo em oxigênio e esperança, colaborando para um planeta mais
+                        saudável e sustentável.
+                    </p>
+                </article>
+
+                <article class="opcao-doacao">
+                    <input type="checkbox" id="doe-adocao" name="adocao">
+                    <h2>Doe <span>R$ 98</span></h2>
+                    <p class="valor-dia">R$ 3,22 por dia</p>
+                    <p class="descricao">
+                        Ajude crianças a encontrarem o amor e a segurança de uma família.
+                        Sua doação apoia programas de adoção e acolhimento, oferecendo um novo começo e a chance de um
+                        futuro cheio de afeto.
+                    </p>
+                </article>
+
+                <article class="opcao-doacao">
+                    <input type="checkbox" id="doe-fome" name="fome">
+                    <h2>Doe <span>R$ 160</span></h2>
+                    <p class="valor-dia">R$ 5,26 por dia</p>
+                    <p class="descricao">
+                        A fome não espera.
+                        Com sua ajuda, milhares de pessoas terão acesso a alimentos e dignidade.
+                        Sua doação garante refeições e apoio para famílias em situação de vulnerabilidade.
+                    </p>
+                </article>
+
+                <article class="opcao-doacao outro-valor">
+                    <h2>Doe outro valor</h2>
+                    <input type="number" placeholder="0">
+                    <p class="valor-minimo">* Valor mínimo de R$ 15</p>
+                    <p class="descricao">
+                        Selecione a instituição que deseja contribuir e o valor.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section class="mensalidade">
+            <div class="texto-doacao">
+                <h3>Faça sua doação <span>Mensalmente...</span></h3>
+                <p>Para estas doações, vamos solicitar seus dados apenas uma vez...</p>
+            </div>
+
+            <div class="toggle-container">
+                <label for="doacao-mensal">Desejo doar mensalmente:</label>
+                <label class="toggle">
+                    <input type="checkbox" id="doacao-mensal">
+                    <span class="slider"></span>
+                    <span class="estado"></span>
+                </label>
+            </div>
+
+            <button type="submit" class="confirmar-doacao">Confirmar doação</button>
+
+        </section>
+
+
+    </main>
+
+</body>
+
+</html>

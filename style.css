@@ -1,0 +1,39 @@
+@import url(/style/header.css);
+@import url(/style/card.css);
+@import url(/style/sobrenos.css);
+@import url(/style/projetos.css);
+@import url(/style/reset.css);
+@import url(/style/footer.css);
+@import url(/style/contato.css);
+@import url(/style/formulario.css);
+@import url(/style/projetos.css);
+@import url(/style/reconhecimento.css);
+
+
+:root {
+  --background-color:  rgb(185, 176, 236);
+  --border-color: #ffff;
+  --button-color: #6c63ff;
+  --button-color2: #d6d4f7;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./fonts/Inter_18pt-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #eeeff0;
+}
+
+
+p {
+  font-size: 14px;
+}
+
+
+
