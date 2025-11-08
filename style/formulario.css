@@ -8,8 +8,8 @@
 }
 
 .container-form {
-  width: 80%;
-  height: 80vh;
+  width: 90%;
+  height: 90vh;
   display: flex;
   box-shadow: 5px 5px 10px rgb(0, 0, 0, .212);
 }
@@ -20,11 +20,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1em;
-}
-
-.logo-form {
-  width: 300px;
 }
 
 .form {

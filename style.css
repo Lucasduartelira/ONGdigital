@@ -8,10 +8,11 @@
 @import url(/style/formulario.css);
 @import url(/style/projetos.css);
 @import url(/style/reconhecimento.css);
+@import url(/style/js.css);
 
 
 :root {
-  --background-color:  rgb(185, 176, 236);
+  --background-color: rgb(185, 176, 236);
   --border-color: #ffff;
   --button-color: #6c63ff;
   --button-color2: #d6d4f7;
@@ -34,6 +35,4 @@ body {
 p {
   font-size: 14px;
 }
-
-
 

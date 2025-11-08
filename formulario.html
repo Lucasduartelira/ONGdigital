@@ -9,7 +9,7 @@
 </head>
 
 <body class="formulario">
-    
+
     <section class="container-form">
 
         <figure class="form-image">
@@ -17,7 +17,7 @@
         </figure>
 
         <div class="form">
-            <form action="#">
+            <form id="formulario-cadastro" action="#">
 
                 <header class="form-header">
                     <h2>Cadastre-se</h2>
@@ -30,41 +30,49 @@
                         <label for="full-name">Nome completo</label>
                         <input id="full-name" type="text" name="full-name" placeholder="Digite seu nome completo"
                             required>
+                        <span class="mensagem-erro"></span>
                     </div>
 
                     <div class="input-box">
                         <label for="email">E-mail</label>
                         <input id="email" type="email" name="email" placeholder="Digite seu E-mail" required>
+                        <span class="mensagem-erro"></span>
                     </div>
 
                     <div class="input-box">
                         <label for="cpf">CPF</label>
                         <input id="cpf" type="text" name="cpf" placeholder="Digite seu CPF" required>
+                        <span class="mensagem-erro"></span>
                     </div>
 
                     <div class="input-box">
                         <label for="number">Telefone</label>
                         <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                        <span class="mensagem-erro"></span>
                     </div>
 
                     <div class="input-box">
                         <label for="birthdate">Dados de Nascimento</label>
                         <input id="birthdate" type="text" name="birthdate" placeholder="Data de Nascimento" required>
+                        <span class="mensagem-erro"></span>
                     </div>
 
                     <div class="input-box">
                         <label for="address">Endereço</label>
                         <input id="address" type="text" name="address" placeholder="Digite seu Endereço" required>
+                        <span class="mensagem-erro"></span>
                     </div>
 
                     <div class="input-box">
                         <label for="zipcode">CEP</label>
                         <input id="zipcode" type="text" name="zipcode" placeholder="CEP de residencia" required>
+                        <span class="mensagem-erro"></span>
                     </div>
 
                     <div class="input-box">
                         <label for="state">Estado</label>
                         <input id="state" type="text" name="state" placeholder="Cidade / Estado" required>
+                        <span class="mensagem-erro"></span>
                     </div>
 
                 </fieldset>
@@ -75,7 +83,6 @@
         </div>
 
     </section>
-
 </body>
 
 </html>
