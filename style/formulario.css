@@ -90,3 +90,16 @@
   padding: 1em;
 }
 
+.mensagem-erro {
+  color: red;
+  font-size: 14px;
+  margin-top: 4px;
+  max-width: 200px;
+}
+
+.icons-erro {
+  display: flex;
+  color: red;
+  gap: 6px;
+}
+
