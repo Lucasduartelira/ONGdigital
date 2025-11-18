@@ -21,10 +21,6 @@ Ao aplicar a funcionalidade do javascript na tela, vemos como os inputs onde con
  atualização dos spans de erro
  adição de estilos para mensagens de erro
 
----
-
-
-Inclua prints se possível.
 
 ---
 
